@@ -1,0 +1,12 @@
+email:
+  sender: "gouravmuchhal476@gmail.com"
+  app_password: "lgsggyhuqrvkgukq"
+  recipient: "babitamuchhal0@gmail.com"
+
+alerts:
+  price_drop_threshold: 5
+
+paths:
+  raw_data: "C:/Users/HP/Documents/ecommerce_price_analytics/data/raw/product_prices_raw.csv"
+  processed_data: "C:/Users/HP/Documents/ecommerce_price_analytics/data/processed/product_prices_clean.csv"
+  dashboard_output: "C:/Users/HP/Documents/ecommerce_price_analytics/outputs/dashboard_data.csv"

@@ -1,0 +1,47 @@
+Folder PATH listing
+Volume serial number is 960A-0E64
+C:.
+¦   main.py
+¦   README.md
+¦   requirements.txt
+¦   structure.txt
+¦   
++---config
+¦       config.yaml
+¦       
++---data
+¦   +---processed
+¦   ¦       product_prices_clean.csv
+¦   ¦       
+¦   +---raw
+¦           product_prices_raw.csv
+¦           
++---notebooks
+¦   ¦   01_data_collection.ipynb
+¦   ¦   02_data_cleaning.ipynb
+¦   ¦   03_price_analysis.ipynb
+¦   ¦   
+¦   +---.ipynb_checkpoints
+¦           01_data_collection-checkpoint.ipynb
+¦           02_data_cleaning-checkpoint.ipynb
+¦           03_price_analysis-checkpoint.ipynb
+¦           
++---outputs
+¦   ¦   dashboard_data.csv
+¦   ¦   
+¦   +---figures
+¦           average_price_by_product.png
+¦           plot_name.png
+¦           price_distribution.png
+¦           price_range_outliers_by_product.png
+¦           price_trends_over_tracking_period.png
+¦           product_wise_absolute_price_range.png
+¦           product_wise_price_volatility_cv_percent.png
+¦           rolling_7day_price_volatility_by_product.png
+¦           
++---scripts
+        analysis.py
+        data_cleaning.py
+        notify.py
+        scraper.py
+        
